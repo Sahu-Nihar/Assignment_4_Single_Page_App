@@ -1,0 +1,12 @@
+.page-footer {
+    background: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.page-footer p {
+    color: #0f52ba;
+    font-size: 14px;
+}
