@@ -2,6 +2,15 @@
 
 This is a single page application made using react.js. It is a blog site that showcases the home page which displays all the list of blogs and a blog page which displays that particular blog which is being clicked. 
 
+This site also displays 5 article titles from newsapi.org which is a ajax call, and using useEffect hook the nav component gets refreshed every 5 secs.
+The blog page also has a go back button which redirects to home page.
+
+In addition to all required features some new features are also added such as:
+1. Search blog by the category in search bar
+2. If nothing is returned then appropriate error page gets rendered
+3. If the id in the url does not exist then error page gets rendered
+4. The blog page has an additional go back button on top left corner which redirects backs to home page
+
 ## Available Scripts
 
 In the project directory, you can run:
